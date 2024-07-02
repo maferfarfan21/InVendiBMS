@@ -61,36 +61,25 @@
             <nav class="header__nav-wrap">
 
                 <ul class="header__nav">
-                    <li class="current"><a href="index.html" title="">Inicio</a></li>
+                    <li class="current"><a href="index.html" title="">Descripción general</a></li>
                     <li class="has-children">
-                        <a href="#0" title="">Sobre InVendi</a>
+                        <a href="single-standard.html" title="">Guía del usuario</a>
                         <ul class="sub-menu">
-                        <li><a href="category.html">Aplicaciones</a></li>
-                        
-                        <li><a href="#ILM">InVendi License Management   </a></li>
-                        <li><a href="#ILC">InVendi Logging Configuration   </a></li>
-                        <li><a href="#IPC">InVendi Panel   </a></li>
-                        <li><a href="#ISC">InVendi Server Configuration   </a></li>
-                        <li><a href="#ISM">InVendi Server Monitor   </a></li>
-                        <li><a href="#IE">InVendi Editor  </a></li>
-                        </ul>
+                            <li><a href="#">Estructura principal</a></li>
+                            <li><a href="#">Start</a></li>
+                            <li><a href="#">View</a></li>
+                            <li><a href="#PE">Project Explorer</a></li>
+                            <li><a href="#">Documents View</a></li>
+                            <li><a href="#">Values</a></li>
+                            <li><a href="#">Toolbox</a></li>
+                            <li><a href="#">Properties</a></li>
+                            <li><a href="#">Document values</a></li>
+                            
+                            </ul>
                     </li>
                     <li class="has-children">
-                        <a href="#0" title="">InVendi Editor</a>
-                        <ul class="sub-menu">
-                        <li><a href="single-video.html">Estructura principal</a></li>
-                        <li><a href="single-audio.html">Configuración del proyecto</a></li>
-                        <li><a href="single-gallery.html">Gestión de Usuarios</a></li>
-                        <li><a href="single-standard.html">Idiomas</a></li>
-                        <li><a href="single-standard.html">Textos</a></li>
-                        <li><a href="single-standard.html">Imágenes</a></li>
-                        <li><a href="single-standard.html">Value Accessors</a></li>
-                        <li><a href="single-standard.html">Valores</a></li>
-                        <li><a href="single-standard.html">Scripting</a></li>
-                        <li><a href="single-standard.html">Graphic Themes</a></li>
-                        <li><a href="single-standard.html">Scenes</a></li>
-                        <li><a href="single-standard.html">Tasks</a></li>
-                        </ul>
+                        <a href="#0" title="">Configuración</a>
+                        
                     </li>
                     <li class="has-children">
                         <a href="#0" title="">Elementos</a>
@@ -204,9 +193,8 @@
                             <li><a href="#ID">Languages</a></li>
                             <li ><a href="#TG">Text</a></li>
                             <li><a href="#IGS">Images</a></li>
-                            <li>Value Accessors</li>
-                            <li>Values</li>
-                            <li>Scripting</li>
+                            <li><a href="#VL">Value Accessors</a></li>
+                            <li> <a href="#SP">Scripting</a></li>
                             <li>Graphic Themes</li>
                             <li>Graphic Templates</li>
                             <li>Scenes</li>
@@ -565,6 +553,10 @@
                             </div>
                         
                         </div>
+
+
+
+
                         <h3>Eliminar una imagen</h3>
                         <P>Se puede eliminar la fila completa o desasignar la imagen a la fila.
                             <BR></BR>  <b>Para eliminar la fila:</b></P>
@@ -583,15 +575,209 @@
                                            
                                         </ol>
 
-                                <h3> una imagen a una fila</h3>
+                                <h3>Asignar una imagen a una fila</h3>
                                 <ol>
                                            
                                             <li>Seleccionar la fila.</li>
                                             <li>Hacer clic en Assign . Aparece una ventana.</li>
                                             <li>Seleccionar en el explorador de archivos la imagen.</li>
                                 </ol>
+                                <h3>Vista previa de la imagen</h3>
+                                <p>Al seleccionar una fila, aparece una vista previa de la imagen en la zona inferior de la sección.</p>
+                                
+                                <h3>Modificar descripción de la imagen</h3>
+                                <p>Cada imagen tiene una descripción por idioma. Haciendo clic encima de la descripción de la imagen, nos permite modificarla. </p>
+                                
+                                <h3>Asignar una imagen a una fila</h3>
+                                <p>Si se hace doble clic en una fila se abre el explorador de archivos, permitiendo asignar una imagen a la fila.</p>
+                                
+                               
+
     
+
+
+
+                                <h2 id="IGS">Velue Accesors</h3>
+                                    <p>
+                                        La sección de value accessors permite ver y configurar los métodos de acceso a los valores del proyecto.                                     </p>
                         
+                                    <div class="row half-bottom">
+                        
+                                        <div class="column large-6 tab-full">
+                                                <img src="images/aplication/valueaccessors.png" alt="" >
+                                        </div>
+                                    
+                                        <div class="column large-6 tab-full">
+                                            <h3>Importar Direcciones de Grupo ETS </h3>
+                                            <p>Permite importar fácilmente las direcciones de grupo de un proyecto ETS. Para ello:</p>
+                                            <ol>
+                                                <li>Seleccionar una fila con KNX Group Adresses como Accessor Type. </li>
+                                                <li>Seleccionar el botón ETS Groupaddress Import. </li>
+                                                <li>Se abre el explorador de archivos, seleccionar el proyecto ETS donde están las direcciones.</li>
+                                            </ol>
+                                                                                            
+                                        </div>
+                                    
+                                    </div>
+
+                                    <h3>Añadir un acceso de valores</h3>
+                                    <p>
+                                        Hacer clic en el icono de Add.
+                                    </p>
+                                    <h3>Eliminar un acceso de valores</h3>
+                                    <p>
+                                        Seleccionar el acceso que se quiere eliminar y hacer clic en el icono de Remove.
+                                    </p>
+
+                                    <h3>Modificar el nombre del acceso</h3>
+                                    <p>
+                                        Se permite editar el nombre haciendo clic encima del nombre del acceso.
+                                    </p>
+
+                                    <h3>Definir el tipo de acceso</h3>
+                                    <p>
+                                        Haciendo clic encima del campo aparece una lista de tipos a escoger:
+                                     <br>   -	KNX Group Adresses
+                                     <br>   -	HomeMatic
+                                      <br>  -	OPC Data Access
+                                     <br>   -	Cul
+
+                                    
+                                    </p>
+
+                                    <h3>Modificar el nombre del acceso</h3>
+                                    <p>
+                                        Permite activar o desactivar la lectura de los valores al iniciar el inVendi Panel.
+                                                                        </p>
+                                    
+                       
+                                <h3>Modificar la configuración del acceso</h3>
+                                <p>
+                                    Se permite editar el nombre haciendo clic encima del nombre del acceso.
+                                </p>
+                                <div class="row half-bottom">
+
+                                    <div class="column large-4 tab-full">
+                                            <img src="images/aplication/CII.png" alt="" >
+                                    </div>
+                                
+                                    <div class="column large-8 tab-full">
+                                         <ol>
+                                            <li>Hacer doble clic en el campo de la fila. </li>
+                                            <li>Se abre en una ventana el configurador. </li>
+                                            <li>Seleccionar una interfaz en Configured Interfaces o añadir una nueva seleccionando  .</li>
+                                        </ol>
+                                                                                        
+                                    </div>
+                                
+                                </div>
+
+
+                                <h2 id="VL">Values</h3>
+                                    <p>
+                                        La sección de Valores muestra todos los valores importados (desde Value Accessors) y/o valores internos del proyecto.
+                                    </p>
+                                    <img src="images/aplication/valuee.png" alt="" >
+
+                                     <h3>Añadir valores internos</h3>
+                                    <p>
+                                        Para añadir valores internos hacer clic Add  . Este variable solo existe en tiempo de ejecución para calculos intermedios.
+
+                                    </p>
+                                    <h3>Eliminar valores</h3>
+                                    <p>
+                                        Para eliminar valores seleccionar el valor y luego hacer clic en Remove  
+                                    </p>
+                                    <h3>Data type</h3>
+                                    <p>
+                                    Haciendo doble clic encima se puede seleccionar el tipo de dato del valor. Este campo no debería modificarse y mantener el importado del dispositivo.                                    
+                                    </p>
+                                    <h3>Readable</h3>
+                                    <p>
+                                    Seleccionar checkbox para habilitar o deshabilitar la lectura del valor. Este valor debe coincidir con lo configurado en el proyecto ETS para su correcto funcionamiento.
+                                    </p>
+
+                                    <h3>Writeable</h3>
+                                    <p>
+                                        Seleccionar checkbox para habilitar o deshabilitar la modificación del valor. Este valor debe coincidir con lo configurado en el proyecto ETS para su correcto funcionamiento. 
+                                    
+                                    </p>
+
+                                    <h3>Value accessor</h3>
+                                    <p>
+                                        Haciendo doble clic encima se puede seleccionar el acceso del valor por el que se recibe este dato.                                    
+                                    </p>
+
+                                    <h3>Address</h3>
+                                    <p>
+                                        Haciendo doble clic encima se puede modificar la dirección de grupo y el tipo de dato del valor.
+                                    
+                                    </p>
+                                    <h3>Añadir un valor inicial al valor </h3>
+                                    <p>
+                                        Haciendo clic encima se puede añadir un valor inicial para el valor seleccionado.                                    
+                                    </p>
+
+                                    <h3>Activar el archivado de datos del valor  </h3>
+                                    <p>
+                                        Seleccionar checkbox para habilitar o deshabilitar el almacenamiento de datos históricos en la base de datos.
+                                    </p>
+
+                                    <h2 id="SP">Scripting </h2>
+                                    <p>
+                                        La sección de Scripting permite configurar Scripts globales para la aplicación.                                    
+                                    </p>
+                                    <div class="row half-bottom">
+
+                                        <div class="column large-6 tab-full">
+                                                <img src="images/aplication/scripting.png" alt="" >
+                                        </div>
+                                    
+                                        <div class="column large-6 tab-full">
+                                            <p>Funcionalidad</p>
+                                             <ol>
+                                                <li>Añadir un script</li>
+                                                <li>Eliminar un script </li>
+                                                <li>Modificar el nombre del script</li>
+                                                <li>Editar script</li>
+                                            </ol>
+                                                                                            
+                                        </div>
+                                    
+                                    </div>
+
+                                    <h3>Añadir un script </h3>
+                                    <p>Para añadir un script hacer clic en Add Script  .
+
+
+                                    </p>
+                                    <h3>Eliminar un script </h3>
+                                    <p>Para eliminar un script hacer clic en Delete Script.
+                                        
+                                    </p>
+
+                                    <h3>Modificar el nombre del script </h3>
+                                    <p>Hacer clic encima del campo de File name y escribir el nuevo nombre.
+                                        
+                                    </p>
+
+                                    <div class="row half-bottom">
+
+                                    <div class="column large-6 tab-full">
+                                        <img src="images/aplication/VS.png" alt="" >
+                                </div>
+                            
+                                <div class="column large-6 tab-full">
+                                    <h3>Editar script</h3>
+                                    <p>Al seleccionar el editar script aparece la siguiente ventana, donde se escribe el código.
+                                        
+                                    </p>
+                                                                                    
+                                </div>
+                                    
+                                    
+                                   
+                                   
                         
                     </div> <!-- end entry content -->
 
