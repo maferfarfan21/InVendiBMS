@@ -2224,6 +2224,7 @@ input::-moz-focus-inner {
     -ms-flex-pack           : justify;
     -webkit-justify-content : space-between;
     justify-content         : space-between;
+    
     -webkit-align-items     : stretch;
     -ms-flex-align          : stretch;
     align-items             : stretch;
@@ -2241,12 +2242,15 @@ input::-moz-focus-inner {
     padding     : 0;
     font-family : "Sora", sans-serif;
     font-weight : 400;
+    
     font-size   : 16px;
+    
 }
 
 .header__nav li {
     display  : block;
     padding  : 0 2rem 0 0;
+    
     width    : 100%;
     position : relative;
 }
@@ -2255,11 +2259,14 @@ input::-moz-focus-inner {
     display             : block;
     color               : rgba(255, 255, 255, 0.6);
     line-height         : 4.4rem;
+    
+    
     transition-property : color;
 }
 
 .header__nav li.has-children {
     padding-right : 3.3rem;
+    
 }
 
 .header__nav li.has-children > a::after {

@@ -60,18 +60,38 @@
             <nav class="header__nav-wrap">
 
                 <ul class="header__nav">
-                    <li ><a href="index.html" title="">Empezar</a></li>
+                    <li class="current" ><a href="index.html" title="">Empezar</a></li>
+                    <hr style="border-color: rgba(255, 255, 255, 0.271);">
+                    <li class="has-children ">
+                        <a href="#" title="">Instalación</a>
+                        <ul class="sub-menu">
+                            <hr style="border-color: rgba(255, 255, 255, 0.271);">
 
-                   <li class="current" ><a href="SobreInvendi.html" title="">Descripción general</a>
+                            <li ><a href="Instalacion.html">Como instalar InVendi</a></li>
+                            <hr style="border-color: rgba(255, 255, 255, 0.271);">
+
+                            <li ><a href="aplicacionesinstaladas.html">Aplicaciones instaladas</a></li>
+                            </ul>
                     </li>
                     
-                    
-                    <li class="has-children">
-                        <a href="#" title="">Guía del usuario</a>
-                        <ul class="sub-menu">
-                            <li><a href="estructura.html">Estructura principal</a></li>
-                            <li class="current"><a href="projectexplorer.html">Project Explorer</a></li>
+                   <hr style="border-color: rgba(255, 255, 255, 0.271);">
 
+                    <li class="has-children ">
+                        <a href="#" title="">Guía del usuario</a>
+                        
+                        <ul class="sub-menu">
+                            <hr style="border-color: rgba(255, 255, 255, 0.271);">
+
+                            <li><a href="estructura.html">Documentación</a></li>
+                            <hr style="border-color: rgba(255, 255, 255, 0.271);">
+
+                            <li ><a href="logicasimple.html">Elementos con lógica simple</a></li>
+                            <hr style="border-color: rgba(255, 255, 255, 0.271);">
+
+                            <li ><a href="logicacompleja.html">Elementos con lógica compleja</a></li>
+                            <hr style="border-color: rgba(255, 255, 255, 0.271);">
+
+                            <li ><a href="logicacompleja.html">Glosario de términos</a></li>
                             </ul>
                     </li>
                     
@@ -177,404 +197,55 @@
                              para principiantes. Presenta los conceptos más importantes de InVendi BMS de una manera detallada y fácil de entender para los que recién comienzan. Una vez que hayas terminado, ¡dale otra oportunidad a la documentación!
                         </p>
 
+                        <hr>
 
-
-
-                        <h1>Aplicaciones</h1>
-    
+                        <h2>Guía paso por paso</h2>
                         <p>
-                        <a href="#IE">InVendi Editor  </a><br>
-                        <a href="#ILM">InVendi License Management   </a><br>
-                        <a href="#ILC">InVendi Logging Configuration   </a><br>
-                        <a href="#IPC">InVendi Panel   </a><br>
-                        <a href="#ISC">InVendi Server Configuration   </a><br>
-                        <a href="#ISM">InVendi Server Monitor   </a><br>
+                            Si prefieres <b>aprender los conceptos paso a paso,</b>  nuestra guía de conceptos principales 
+                            es el mejor lugar para comenzar. Cada capítulo siguiente se basa en el conocimiento 
+                            presentado en los capítulos anteriores, por lo que no te perderás nada a medida que avanzas.
+
                         </p>
-    
-                       
-    
-                        <h2 id="ILM">InVendi License Management</h2>
+
+                        <hr>
+
+                        <h2>
+                            Cursos recomendados
+                        </h2>
+
                         <p>
-                            InVendi License Management es el gestor de licencias de InVendi, en esta aplicación se configuran las licencias para poder disfrutar de todas las funcionalidades que componen InVendi. Para ello se permite:
+                            A veces, las personas encuentran más útiles los libros y cursos en video 
+                            de terceros que la documentación oficial. Mantenemos una lista de recursos 
+                            recomendados comúnmente , algunos de los cuales son gratuitos.
+
                         </p>
+                        <hr>
 
-        
-                        <ul>
-                            <li>Añadir Licencias</li>
-                            <li>Borrar Licencias</li>
-                        </ul>
-    
-                        <div class="row half-bottom">
+                        <h2>
+                            Conceptos avanzados
+                        </h2>
 
-                            <div class="column large-6 tab-full">
-                                <h4>Añadir licencias</h4>
-                                <p>
-                                    Para añadir una licencia hacer clic en License y seguidamente en Add... Se abre el File Explorer donde se debe seleccionar la licencia a importar. Al hacerlo aparece en la lista.
-                                </p>
-                                <div class="slider__slide">
-                                    <img src="images/aplication/añadirlicencia.png" alt="" >
-                                </div>
-                                
-                            
-                            </div>
-    
-                            <div class="column large-6 tab-full">
-                                
-                              
-                                <h4>Borrar licencias</h4>
-                                <p>
-                                    Para eliminar una licencia hacer clic en la licencia a eliminar. Luego hacer clic en License y en Remove.
-                                </p>
-                                <div class="slider__slide">
-                                    <img src="images/aplication/borrarlicencias.png" alt="" >
-                                </div>
-                                <p>
-                                    Para guardar los nuevos cambios hacer clic  <B> File y en Save.</B> Sino se realiza este paso, <b>los cambios no se aplican.  </b>                       </p>
-          
-                                
-                            </div>
-    
-                        </div>
-
-
-
-                           <h2 id="ILC">InVendi Logging Configurator</h2>
-                            <p>
-                                InVendi Logging Configurator permite gestionar el tiempo del ciclo de archivado de datos de los proyectos de InVendi. 
-
-                            </p>
-                            <img src="images/aplication/invendiloggin.png" alt="" >
-
-                            <div class="row half-bottom">
-
-                                <div class="column large-6 tab-full">
-                                    <h4>	Segment Settings</h4>
-                                    <p>
-                                        Este apartado permite configurar el tamaño del segmento entre las siguientes opciones: 1 día, 1 mes, 3 meses, 6 meses y 1 año.  Además, de la carpeta donde se guardan el archivo con los datos.   
-                                    </p>
-                                    
-                                    
-                                    
-                                
-                                </div>
-        
-                                <div class="column large-6 tab-full">
-                                    
-                                    <img src="images/aplication/SS.png" alt="" >
-                                    
-                                </div>
-        
-                            </div>
-
-                            <div class="row half-bottom">
-
-                                <div class="column large-6 tab-full">
-                                    
-                                    <h4>Security Settings</h4>
-                                    <p>
-                                        Este permite habilitar o deshabilitar el check roles  para operaciones de lectura y/o escritura.
-                                    </p>
-                                   
-                                    
-                                
-                                </div>
-        
-                                <div class="column large-6 tab-full">
-                                    <img src="images/aplication/scs.png" alt="" >
-                                    
-                                    
-                                </div>
-        
-                            </div>
-                            <div class="row half-bottom">
-
-                                <div class="column large-6 tab-full">
-                                    <h4>Security Settings</h4>
-                                    <p>Si se habilita con el servidor de datos mediante protocolo TCP se permite:
-                                       <br> -	Añadir el TCP Host y el Port. 
-                                        </p>
-                                
-                                </div>
-        
-                                <div class="column large-6 tab-full">
-                                    
-                                  
-                                        <img src="images/aplication/tcp.png" alt="" >
-                                    
-                                    
-                                </div>
-        
-                            </div>
-                            <p>
-                                Para que se aplique la nueva configuración se deben guardar los cambios haciendo clic en <b>  Save Configuration.</b>
- <br>Si se necesita borrar los cambios, hacer clic en <b>Restore Default Configuration.</b> 
-
-                            </p>
-                        
-                           
-                           
-                            <h2 id="IPC">InVendi Panel Configuration</h2>
-                            <p>InVendi Panel Configuration permite configurar el panel de runtime del proyecto, InVendi Panel.</p>
-                           
-                            <img src="images/aplication/ipc.png" alt="" >
-                            <p>La aplicación contiene las siguientes pestañas:</p>
-                            <div class="row half-bottom">
-
-                                <div class="column large-6 tab-full">
-                                    
-                                        <h3>Window Settings</h3>
-                                        <p>
-                                            Esta pestaña permite modificar la visualización del Panel mediante las siguientes funciones:
-                                        <br> <b>Modificar el tamaño de la pantalla</b>
-                                        <br>Para modificar el tamaño permite habilitar la opción de pantalla completa o introducir manualmente la altura y ancho de esta.
-                                        <br><b>Modificar las propiedades de la pantalla</b>
-                                        <br>Permite activar o desactivar las siguientes propiedades:
-                                        <br>-	Titlebar
-                                        <br>-	Sizeable
-                                        <br>-	Scrollbar
-                                        <br>-	Scale Document
-
-                                        </p>
-                                       
-                                    
-
-                                </div>
-        
-                                <div class="column large-6 tab-full">
-                                    
-                                    <img src="images/aplication/tdp.png" alt="" >
-                                        
-                                    
-                                </div>
-        
-                            </div>
-
-
-
-
-                            <div class="row half-bottom">
-
-                                <div class="column large-6 tab-full">
-                                   
-                                        <h4>Logon  Information</h4>
-                                    <p>
-                                        Esta pestaña permite configurar el inicio de sesión automático. Para ello permite:
-                                        <br>       1.	Habilitar la opción Automatic Logon. 
-                                        <br>       2.	Introducir el usuario.
-                                        <br>       3.	Introducir la contraseña.
-                                        
-                                        </p>
-                                        
-
-                                </div>
-        
-                                <div class="column large-6 tab-full">
-                                    
-                                    
-                                    <img src="images/aplication/logoninfo.png" alt="" >
-                                    
-                                </div>
-        
-                            </div>
-
-
-                            <div class="row half-bottom">
-
-                                <div class="column large-6 tab-full">
-                                    <h4>Server Connection</h4>
-                                        <p>
-                                            Esta pestaña permite configurar como se realiza la conexión con el servidor. Para ello, se debe seleccionar el tipo de protocolo entre: ‘Local’, ‘Remote over HTTP’ o ‘Remote over TCP’. Al seleccionar las dos últimas opciones se habilitan los campos Address y Port.
-                                        </p>
-
-                                </div>
-        
-                                <div class="column large-6 tab-full">
-                                    
-                                    
-                                        
-                                        <img src="images/aplication/serverc.png" alt="" >
-
-
-
-                                        
-                                    </p>
-                                    
-                                </div>
-        
-                            </div>
-                            <div class="row half-bottom">
-
-                                <div class="column large-6 tab-full">
-                                    <h4>InVendi Panel</h4>
-                                    <p>
-                                        InVendi Panel se encarga de mostrar el proyecto en tiempo de ejecución (runtime). Mediante la aplicación, el operario puede ver los datos y realizar las acciones en el sistema en tiempo real.
-                                    <br> La aplicación de InVendi Panel Configuration es la encargada de configurar la visualización de esta aplicación.
-
-                                    </p>
-
-                                </div>
-        
-                                <div class="column large-6 tab-full">
-                                        <img src="images/aplication/panelin.png" alt="" >
-                                    </p>
-                                    
-                                </div>
-        
-                            </div>
-                           
-                           
-                           
-                            
-                            
-
-
-                        <h2 id="ISC">InVendi Server Configuration</h2>
                         <p>
-                            InVendi Server Configuration es la aplicación encargada de <b>enlazar el proyecto de InVendi Editor al sistema que sirve los datos, mediante la configuración de la conexión con el sistema. </b> 
-                        </p>
-                        <img src="images/aplication/isc.png" alt="" >
-
-                        <div class="row half-bottom">
-
-                            <div class="column large-6 tab-full">
-                                Para configurar la conexión se debe seguir los siguientes pasos:
-                            <br> 1.	Añadir la ruta del proyecto de inVendi a mostrar en el apartado Project.
-                            <br>  
-
-                            </div>
-    
-                            <div class="column large-6 tab-full">
-                                <img src="images/aplication/ar.png" alt="" >
-                                </p>
-                                
-                            </div>
-    
-                        </div>
-
-                        <div class="row half-bottom">
-
-                            <div class="column large-6 tab-full">
-                                <br>2.	Hacer clic en [+]. Seleccionar una interfaz en Configured Interfaces o añadir una nueva seleccionando <br> 
-                            </div>
-    
-                            <div class="column large-6 tab-full">
-                                <img src="images/aplication/mas2.png" alt="" >
-
-                                
-                            </div>
-    
-                        </div>
-
-                        <div class="row half-bottom">
-
-                            <div class="column large-6 tab-full">
-                                <br> 3.	Seleccionar el tipo de interfaz a configurar entre: IP Tunneling, IP Routing y USB Interface. El tipo de interfaz ‘USB’ tiene el siguiente aspecto:                            </div>
-    
-                            <div class="column large-6 tab-full">
-                                <img src="images/aplication/usb.png" alt="" >
-                                
-                            </div>
-    
-                        </div>
-                        <div class="row half-bottom">
-
-                            <div class="column large-6 tab-full">
-                            <p><br>3.	Una vez seleccionada, hacer clic en Rescan, seleccionar la interfaz conectada y añadir la dirección individual de esta. 
-                                <br>4.	Para acabar, hacer clic en Select. Para comprobar que la conexión se ha realizado correctamente hacer clic en Test. Debajo de este aparece un mensaje informando si la conexión es correcta o no.
-                                <br>5.	En el caso de que la conexión se realice mediante IP, hacer clic en Accessibility y asignar la IP que le corresponda.</p>    
-
-                             </div>
-                            <div class="column large-6 tab-full">
-                                <img src="images/aplication/acc.png" alt="" >
-                                
-                            </div>
-    
-                        </div>
-                           <br>6.	Finalmente, hacer clic en File. Aparece la opción de Save, seleccionarla para guardar los cambios. Esto reinicia el servidor con la nueva configuración.
+                            
+                            Una vez que te sientas cómodo con los conceptos principales y hayas jugado 
+                            un poco con InVendi BMS, es posible que te interese conocer temas más avanzados. 
+                            Esta sección te presentará las características de InVendi BMS más potentes, pero 
+                            menos utilizadas, como los Scripts.
 
 
                         </p>
 
-                        <h2 id="ISM">InVendi Server Monitor</h2>
-                        <p>InVendi Server Monitor permite gestionar el estado del servidor de la aplicación. Para acceder a sus funciones se debe hacer clic con el botón derecho del ratón en la casita que aparece en la Taskbar de Windows. Sus funciones son:
+                        <hr>
 
-                            <br>-	Encender servidor mediante clic en <b>Start Server</b> 
-                            <br>-	Parar servidor mediante clic en <b> Stop Server</b>
-                            <br>-	Reiniciar servidor mediante clic en <b>Restart Server</b> 
-                            <br>-	Salir de la aplicación mediante clic en <b>Exit.</b>
-                            <br>-	Acceder a la aplicación Server Configuration mediante clic en <b>Configure…</b> 
-                            <br>                        <img src="images/aplication/servercon.png" alt="" >
-                           
-                           
-                            <div class="row half-bottom">
+                    
 
-                                <div class="column large-6 tab-full">
-                                    <br>Para saber el estado en el que se encuentra el servidor hay que fijarse en el icono delante del símbolo de una casa. Según el icono significa lo siguiente:
-                                    <br>-	Icono verde  : la comunicación funciona correctamente.
-                                    <br>-	Icono amarillo  : la comunicación no se está llevando a cabo.
-                                    <br>-	Icono rojo  : el servidor está parado.
-                                   <br>
-                                </div>
-                                <div class="column large-6 tab-full">
-                                    
-                                </div>
+
+                           
+                            
+
+
+
         
-                            </div>
-                           
-                            
-
-                            <div class="row half-bottom">
-
-                                <div class="column large-6 tab-full">
-                                    <br>Para saber el estado en el que se encuentra el servidor hay que fijarse en el icono delante del símbolo de una casa. Según el icono significa lo siguiente:
-                                    <br>-	Icono verde  : la comunicación funciona correctamente.
-                                    <br>-	Icono amarillo  : la comunicación no se está llevando a cabo.
-                                    <br>-	Icono rojo  : el servidor está parado.
-                                   <br>
-                                </div>
-                                <div class="column large-6 tab-full">
-                                    
-                                </div>
-        
-                            </div>
-                            <br>Además, al pasar por encima del icono el cursor muestra la siguiente información sobre su estado:
-                            <br>-	Serverstate: muestra el estado del servidor, si está en marcha o parado
-                            <br>-	License: los valores que admite la licencia
-                            <br>-	Projectstate: si el proyecto está abierto o cerrado.
-                            <br>-	Projectinformation: cual es el proyecto configurado en el servidor
-                            <br>-	Connections: cual es el Value Accessor configurado para el proyecto configurado en el servidor. 
-                            
-                        </p>
-
-
-
-                        <div class="row half-bottom">
-
-                            <div class="column large-6 tab-full">
-                                <h3 id="IE">InVendi Editor</h3>
-                                <p>
-                                    InVendi Editor es la aplicación donde se configura y se realiza el proyecto en fase de ingeniería. Permite al integrador gestionar y parametrizar tanto las opciones del proyecto como:
-                                <b><br>    -	Usuarios
-                                <br>    -	Idiomas de la interfaz
-                                <br>    -	Componentes y objetos gráficos
-                                <br>    -	Scripts de configuración
-                                <br>    -	Escenas para ambientación
-                                <br>   -	Tareas programables</b>
-
-                                </p>
-                                
-                            
-                            </div>
-    
-                            <div class="column large-6 tab-full">
-                                
-                              
-                                <br>                        <img src="images/aplication/ineditor.png" alt="" >
-                      
-
-                            </div>
-    
-                        </div>
                         
                         
                     </div> <!-- end entry content -->
